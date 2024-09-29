@@ -10,7 +10,7 @@
             line-height: 1.6;
             margin: 20px;
         }
-        h1, h2, h3 {
+        h1, h2 {
             color: #333;
         }
         code {
@@ -25,10 +25,4 @@
             overflow-x: auto;
         }
     </style>
-</head>
-<body>
-
-    <h1>🏦 Largest Banks Data Extraction Project</h1>
-
-    <h2>📖 Overview</h2>
-    <p>This project extracts data on the largest banks from a Wikipedia page,
+</he
