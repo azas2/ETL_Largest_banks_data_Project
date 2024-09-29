@@ -3,86 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Largest Banks Data Extraction Project</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-        }
-        h1, h2, h3 {
-            color: #333;
-        }
-        code {
-            background-color: #f4f4f4;
-            padding: 2px 4px;
-            border-radius: 4px;
-        }
-        pre {
-            background-color: #f4f4f4;
-            padding: 10px;
-            border-radius: 4px;
-            overflow-x: auto;
-        }
-    </style>
 </head>
 <body>
 
-    <h1>🏦 Largest Banks Data Extraction Project</h1>
+<h1>🏦 Largest Banks Data Extraction Project</h1>
 
-    <h2>🔧 Requirements</h2>
-    <p>To run this project, you'll need:</p>
-    <ul>
-        <li>Python 3.x</li>
-        <li>Libraries:
-            <ul>
-                <li><code>pandas</code></li>
-                <li><code>requests</code></li>
-                <li><code>beautifulsoup4</code></li>
-                <li><code>sqlite3</code></li>
-                <li><code>numpy</code></li>
-            </ul>
-        </li>
-    </ul>
-    <p>You can install the required libraries using:</p>
-    <pre><code>pip install pandas requests beautifulsoup4 numpy</code></pre>
+<p>This project extracts data about the largest banks in the world from Wikipedia, transforms it, and stores it in both a CSV file and an SQLite database. The extracted data includes market capitalization in various currencies.</p>
 
-    <h2>📂 File Structure</h2>
-    <ul>
-        <li><code>main.py</code> (your script)</li>
-        <li><code>exchange_rate.csv</code> (CSV file containing currency exchange rates)</li>
-        <li><code>Largest_banks_data.csv</code> (output CSV file)</li>
-        <li><code>Banks.db</code> (SQLite database file)</li>
-        <li><code>code_log.txt</code> (log file for tracking progress)</li>
-    </ul>
+<h2>📑 Table of Contents</h2>
+<ul>
+    <li><a href="#requirements">🔧 Requirements</a></li>
+    <li><a href="#file-structure">📂 File Structure</a></li>
+    <li><a href="#getting-started">🚀 Getting Started</a></li>
+    <li><a href="#functionality">🛠️ Functionality</a></li>
+    <li><a href="#license">📄 License</a></li>
+    <li><a href="#contributing">🤝 Contributing</a></li>
+</ul>
 
-    <h2>🚀 Getting Started</h2>
-    <ol>
-        <li>Clone this repository or download the script.</li>
-        <li>Ensure you have the <code>exchange_rate.csv</code> file in the same directory.</li>
-        <li>Run the script:</li>
-        <pre><code>python main.py</code></pre>
-    </ol>
+<h2 id="requirements">🔧 Requirements</h2>
+<p>To run this project, you'll need:</p>
+<ul>
+    <li><b>Python 3.x</b></li>
+    <li><b>Libraries:</b>
+        <ul>
+            <li>pandas</li>
+            <li>requests</li>
+            <li>beautifulsoup4</li>
+            <li>numpy</li>
+            <li>sqlite3</li>
+        </ul>
+    </li>
+</ul>
+<p><b>Install the required libraries:</b></p>
+<pre><code>pip install pandas requests beautifulsoup4 numpy</code></pre>
 
-    <h2>📊 Queries Available</h2>
-    <p>You can run the following queries after loading data into the database:</p>
-    <ul>
-        <li><strong>View All Data:</strong>
-            <pre><code>SELECT * FROM Largest_banks;</code></pre>
-        </li>
-        <li><strong>Average Market Capitalization (in GBP):</strong>
-            <pre><code>SELECT AVG(MC_GBP_Billion) FROM Largest_banks;</code></pre>
-        </li>
-        <li><strong>Top 5 Banks:</strong>
-            <pre><code>SELECT Name FROM Largest_banks LIMIT 5;</code></pre>
-        </li>
-    </ul>
+<h2 id="file-structure">📂 File Structure</h2>
+<pre><code>
+ main.py                   # Main script for data extraction and transformation
+ exchange_rate.csv         # CSV file with currency exchange rates
+ Largest_banks_data.csv    # Output CSV file with bank data
+ Banks.db                  # SQLite database file
+ code_log.txt              # Log file for tracking progress
+</code></pre>
 
-    <h2>📜 Logging</h2>
-    <p>All progress and errors are logged in <code>code_log.txt</code> for your reference.</p>
+<h2 id="getting-started">🚀 Getting Started</h2>
+<p>1. <b>Clone the repository:</b></p>
+<pre><code>git clone &lt;repository-url&gt;</code></pre>
+<p>2. <b>Navigate to the directory:</b></p>
+<pre><code>cd &lt;repository-name&gt;</code></pre>
+<p>3. <b>Ensure <code>exchange_rate.csv</code> is in the directory.</b></p>
+<p>4. <b>Run the script:</b></p>
+<pre><code>python main.py</code></pre>
+<p>5. <b>Check <code>code_log.txt</code> for updates on progress.</b></p>
 
-    <h2>📬 Contact</h2>
-    <p>For questions or feedback, feel free to reach out!</p>
+<h2 id="functionality">🛠️ Functionality</h2>
+<ul>
+    <li><b>Data Extraction:</b> Fetches bank data from the specified Wikipedia page.</li>
+    <li><b>Data Transformation:</b> Cleans and converts the data, adding market capitalization in GBP, EUR, and INR based on exchange rates.</li>
+    <li><b>Data Loading:</b> Saves the transformed data to a CSV file and an SQLite database.</li>
+    <li><b>Querying:</b> Allows running SQL queries to retrieve specific information from the database.</li>
+</ul>
+
+<h2 id="license">📄 License</h2>
+<p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
+
+<h2 id="contributing">🤝 Contributing</h2>
+<p>If you would like to contribute to this project, please fork the repository and submit a pull request.</p>
+
+<h2 id="contact">📞 Contact</h2>
+<p>For inquiries, contact <a href="mailto:your.email@example.com">Your Name</a>.</p>
 
 </body>
 </html>
