@@ -71,7 +71,7 @@
 <p>If you would like to contribute to this project, please fork the repository and submit a pull request.</p>
 
 <h2 id="contact">📞 Contact</h2>
-<p>For inquiries, contact <a href="mailto:your.email@example.com">Your Name</a>.</p>
+<p>For inquiries, contact <a href="ahmed679942@gmail.com">my_emial</a>.</p>
 
 </body>
 </html>
