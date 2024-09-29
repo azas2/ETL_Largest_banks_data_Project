@@ -1,0 +1,52 @@
+
+2024-Sep-29-17:51:57:  start to extract data 
+2024-Sep-29-17:52:00: data is extract Done 
+2024-Sep-29-17:52:00: Exchange rates loaded 
+2024-Sep-29-17:52:00: Data transformation completed 
+2024-Sep-29-17:52:00: make file as csv file 
+2024-Sep-29-18:04:55:  start to extract data 
+2024-Sep-29-18:04:55:  start to extract data 
+2024-Sep-29-18:04:57: data is extract Done 
+2024-Sep-29-18:04:57: Exchange rates loaded 
+2024-Sep-29-18:04:57: data is extract Done 
+2024-Sep-29-18:04:57: Data transformation completed 
+2024-Sep-29-18:04:57: make file as csv file 
+2024-Sep-29-18:04:57: transform data to db file 
+2024-Sep-29-18:04:57: Exchange rates loaded 
+2024-Sep-29-18:04:57: Data transformation completed 
+2024-Sep-29-18:04:57: make file as csv file 
+2024-Sep-29-18:04:57: transform data to db file 
+2024-Sep-29-18:06:50:  start to extract data 
+2024-Sep-29-18:06:51: data is extract Done 
+2024-Sep-29-18:06:51: Exchange rates loaded 
+2024-Sep-29-18:06:51: Data transformation completed 
+2024-Sep-29-18:06:51: make file as csv file 
+2024-Sep-29-18:06:51: transform data to db file 
+2024-Sep-29-18:06:51: you make new query in data base   
+2024-Sep-29-18:08:14:  start to extract data 
+2024-Sep-29-18:08:16: data is extract Done 
+2024-Sep-29-18:08:16: Exchange rates loaded 
+2024-Sep-29-18:08:16: Data transformation completed 
+2024-Sep-29-18:08:16: make file as csv file 
+2024-Sep-29-18:08:16: transform data to db file 
+2024-Sep-29-18:08:23:  start to extract data 
+2024-Sep-29-18:08:24: data is extract Done 
+2024-Sep-29-18:08:24: Exchange rates loaded 
+2024-Sep-29-18:08:24: Data transformation completed 
+2024-Sep-29-18:08:24: make file as csv file 
+2024-Sep-29-18:08:24: transform data to db file 
+2024-Sep-29-18:08:24: you make new query in data base   
+2024-Sep-29-18:08:57:  start to extract data 
+2024-Sep-29-18:08:58: data is extract Done 
+2024-Sep-29-18:08:58: Exchange rates loaded 
+2024-Sep-29-18:08:58: Data transformation completed 
+2024-Sep-29-18:08:58: make file as csv file 
+2024-Sep-29-18:08:58: transform data to db file 
+2024-Sep-29-18:08:58: you make new query in data base   
+2024-Sep-29-18:09:26:  start to extract data 
+2024-Sep-29-18:09:27: data is extract Done 
+2024-Sep-29-18:09:27: Exchange rates loaded 
+2024-Sep-29-18:09:27: Data transformation completed 
+2024-Sep-29-18:09:27: make file as csv file 
+2024-Sep-29-18:09:27: transform data to db file 
+2024-Sep-29-18:09:27: you make new query in data base   
